@@ -4,7 +4,7 @@ void sum();//headed by Shraddha
 void diff();
             
 //Headed by vedansh
-void div();//Headed by sri sai valli
+void div(int,int);
 void mul();//Headed by Vanshika
 int main()
 {
@@ -22,5 +22,11 @@ void diff(int a,int  b)
 	else
 		c=b-a;
         cout<<"The differenc of the entered number is "<<endl<<c;
+}
+void div(int a,int b)
+{
+	int c;
+	c=a/b;
+	cout<<"The result of division is"<<c;
 }
 
