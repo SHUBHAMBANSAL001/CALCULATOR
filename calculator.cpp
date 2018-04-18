@@ -4,7 +4,7 @@ void sum();//headed by Shraddha
 void diff();
             
 //Headed by vedansh
-void div(int,int);//headed by valli
+void div(int,int);//valli
 void mul();//Headed by Vanshika
 int main()
 {
