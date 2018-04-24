@@ -8,6 +8,7 @@ int main()
 {
 	int a ,b;
 	cout<<"Enter the values of the numbers";
+	cout<<"work also done by lav";
 	cin>>a>>b;
 }
 void diff(int a,int  b)
