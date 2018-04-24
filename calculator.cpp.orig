@@ -1,14 +1,18 @@
 #include<iostream>
 using namespace std;
-void sum( int , int );//headed by Shraddha
-void diff();//Headed by vedansh
+void sum(int,int);//headed by Shraddha
+void diff();
+
+//Headed by vedansh
 void div(int,int);//headed by valli
-void mul(int,int);//Headed by Vanshika
+void mul();//Headed by Vanshika
 int main()
 {
 	int a ,b;
 	cout<<"Enter the values of the numbers";
 	cin>>a>>b;
+
+return 0;
 }
 void diff(int a,int  b)
 {
@@ -19,16 +23,19 @@ void diff(int a,int  b)
 		c=b-a;
         cout<<"The differenc of the entered number is "<<endl<<c;
 }
+<<<<<<< HEAD
 void div(int a,int b)
 {
 	int c;
 	c=a/b;
 	cout<<"The result of division is"<<c;
 }
+
+=======
 void sum(int a , int b)
 {
 	int c;
 	c=a+b;
 	cout<<"sum of two numbers is "<<c;
 }
-
+>>>>>>> origin/sum
